@@ -11,3 +11,26 @@ body {
     justify-content: center;
     text-align: center;
 }
+
+header {
+    position: fixed;
+    top: 0;
+    background-color: #0f0f0f;
+    width: 100%;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-nav {
+    color: oklch(62.3% 0.214 259.815) ;
+    margin-left: 40px;
+    text-decoration: none;
+    width: 100%;
+}
