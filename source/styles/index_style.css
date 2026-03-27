@@ -8,14 +8,6 @@ h1 {
   width: 320px;
 }
 
-.white {
-    color: white;
-}
-
-.blue {
-    color: oklch(54.6% 0.245 262.881);
-}
-
 #user-description {
     color: #a5a5a5;
 }

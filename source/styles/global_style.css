@@ -34,3 +34,11 @@ nav {
     text-decoration: none;
     width: 100%;
 }
+
+.white {
+    color: white;
+}
+
+.blue {
+    color: oklch(54.6% 0.245 262.881);
+}
