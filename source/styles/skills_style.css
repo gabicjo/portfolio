@@ -7,6 +7,15 @@ li {
     margin-top: 0.4rem;
 }
 
-.li-title {
+.skills-div-title {
     font-size: 20px;
+}
+
+#skills-box {
+    display: flex;
+    align-content:start;
+}
+
+#skills-box div {
+    max-width: 300px;
 }
