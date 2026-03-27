@@ -4,18 +4,30 @@ ul {
 }
 
 li {
-    margin-top: 0.4rem;
+    opacity: 0.8;
+    line-height: 1.5;
 }
 
+
 .skills-div-title {
-    font-size: 20px;
+    font-size: 24px;
+    margin-bottom: 1rem;
+    opacity: 1;
 }
 
 #skills-box {
     display: flex;
-    align-content:start;
+    gap: 2rem;
+    flex-direction: row;
 }
 
 #skills-box div {
-    max-width: 300px;
+    flex: 1 1 280px;
+}
+
+@media (max-width: 768px) {
+  .skills-container {
+    flex-direction: column;
+    align-items: center;
+  }
 }
