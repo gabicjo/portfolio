@@ -12,21 +12,33 @@ body {
     text-align: center;
 }
 
+#header-menu {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 32px;
+    display: none;
+}
+
 header {
     position: fixed;
     top: 0;
     z-index: 100000;
     background-color: #0f0f0f;
     width: 100%;
-    padding: 8px;
     display: flex;
     justify-content: center;
+}
+
+#header-nav-border {
+    margin: 0;
 }
 
 nav {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 8px;
 }
 
 .header-nav {
@@ -36,14 +48,40 @@ nav {
     width: 100%;
 }
 
-#header-nav-border {
-    margin: 0
-}
-
 .white {
     color: white;
 }
 
 .blue {
     color: oklch(54.6% 0.245 262.881);
+}
+
+@media (max-width: 400px) {
+    nav {
+        display: none;
+        text-align: start;
+    }
+
+    .exibir {
+        display: block;
+    }
+
+    .header-nav {
+        display: block;
+        margin-bottom: 16px;
+    }
+
+    #header-nav-border {
+        margin-bottom: 16px;
+        margin-left: 40px;
+    }
+
+    #header-menu {
+        display: block;
+        margin-left: 1.2rem;
+    }
+
+    header {
+        display: block;
+    }
 }

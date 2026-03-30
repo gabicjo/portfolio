@@ -27,7 +27,7 @@ img {
     border-radius: 8px;
 }
 
-button {
+.visite-button {
     background-color: oklch(54.6% 0.245 262.881);
     border: none;
     width: 100%;
@@ -36,7 +36,7 @@ button {
     transition: 0.2s;
     font-weight: bold;
 }
-button:hover {
+.visite-button:hover {
     background-color: oklch(62.3% 0.214 259.815);
     transform: scale(1.02);
 }
