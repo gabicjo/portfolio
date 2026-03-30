@@ -15,6 +15,7 @@ body {
 header {
     position: fixed;
     top: 0;
+    z-index: 100000;
     background-color: #0f0f0f;
     width: 100%;
     padding: 8px;
@@ -33,6 +34,10 @@ nav {
     margin-left: 40px;
     text-decoration: none;
     width: 100%;
+}
+
+#header-nav-border {
+    margin: 0
 }
 
 .white {
